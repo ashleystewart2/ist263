@@ -1,0 +1,60 @@
+!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+<body>
+<table border="2" cellpadding="6" cellspacing="10">
+   <caption> this is a caption for my table</caption>
+    <tr>
+        <th>Country</th>
+        <th>Population</th>
+        <th>% of World Population</th>
+    </tr>
+    <tr>
+        <td>China</td>
+        <td>1,365,529,124</td>
+        <td>18.0%</td>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>1,365,529,124</td>
+        <td>17.5%</td>
+    </tr>
+    <tr>
+        <td>United States</td>
+        <td>330,070,331</td>
+        <td>4.23%</td>
+    </tr>
+    <tr>
+        <td>Indonesia</td>
+        <td>269,603,400</td>
+        <td>3.45%</td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<form action="" method="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <label for="stuff">Stuff</label><br>
+    <textarea id="stuff" name="stuff" row="4" cols="15">
+    </textarea>
+    <br>
+    <input type="radio" id="a" name="letters">
+    <label for="a">A</label>
+    <input type="radio" id="b" name="letters">
+    <label for="b">B</label>
+    <input type="radio" id="c" name="letters">
+    <label for="c">C</label>
+    <br>
+    <input type="checkbox" id="f" name="nextletters">
+    <label for="f">F</label>
+    <input type="checkbox" id="e" name="nextletters">
+    <label for="e">E</label>
+    <input type="checkbox" id="d" name="nextletters">
+    <label for="d">D</label>
+
+</form>
+</body>
+</html>
