@@ -56,5 +56,12 @@
     <label for="d">D</label>
 
 </form>
+<head>
+    
+<style>
+p {font-size: 2em;color: aqua; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+p, a, ul {color: brown;}
+</style>
+</head>
 </body>
 </html>
