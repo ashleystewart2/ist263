@@ -59,9 +59,17 @@
 <head>
     
 <style>
-p {font-size: 2em;color: aqua; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-p, a, ul {color: brown;}
+nav {display: flex;} 
+nav div {flex: 1;} 
 </style>
+
+<h1> flexbox</h1>
+<nav>
+    <div style="flex: 3">1st row</div>
+    <div> 2nd row</div>
+    <div> 3rd row</div>
+</nav>
+
 </head>
 </body>
 </html>
