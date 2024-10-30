@@ -14,6 +14,6 @@ table, th, td {border: 1px solid black;}
 .table {margin: 0auto;}
 .skillsimage {text-align: center;}
 @media only screen and (max-width: 600px) {
-    nav a {display: block;width: 100%;}
+    nav a {display: block;width: 100%; padding-top: 10px;}
     nav span {display: none;}
 }
