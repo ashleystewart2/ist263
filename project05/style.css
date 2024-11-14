@@ -1,5 +1,5 @@
 body {background-color: #999999;font-family: 'Times New Roman', Times, serif;text-decoration-color: #ffffff;}
-h1, h2, h3, h4 {color: #ffffff;}
+h1, h2, h3, h4 {color: #ffffff; font-size: 2em;}
 @media only screen and (max-width: 600px) {
     nav a {display: block;width: 100%; padding-top: 10px;}
     nav span {display: none;}
