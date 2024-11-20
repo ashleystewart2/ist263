@@ -1,5 +1,5 @@
-body {background-color: #737373;font-family: 'Times New Roman', Times, serif;text-decoration-color: #ffffff;}
-h1, h2 {color: #ffffff;}
+body {background-color: #737373;font-family: 'Times New Roman', Times, serif;text-decoration-color: #000000;}
+h1, h2 {color: #000000;}
 .evenrow {background-color: gray;}
 h1 {font-size: 1.5em;}
 h2 {font-size: 1em;}
@@ -7,7 +7,7 @@ link a {color: #ffffff;}
 link a:visited {color: #999999;}
 nav {background-color: black;}
 nav a {color: #ffffff;}
-nav a:hover {background-color: #777777;}
+nav a:hover {background-color: #ffffff;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
 table, th, td {border: 1px solid black;}
