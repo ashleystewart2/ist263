@@ -1,4 +1,4 @@
-body {background-color: #999999;font-family: 'Times New Roman', Times, serif;text-decoration-color: #ffffff;}
+body {background-color: #999999;}
 h1, h2, h3, h4 {color: #ffffff; font-size: 2em;}
 @media only screen and (max-width: 600px) {
     nav a {display: block;width: 100%; padding-top: 10px;}
@@ -10,3 +10,8 @@ nav a {color: black;}
 nav a:hover {background-color: #777777;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
