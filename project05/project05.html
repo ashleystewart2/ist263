@@ -3,24 +3,65 @@
    <head>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+       <link rel="stylesheet" href="style.css">
        <title>Home Page</title>
+       <style>
+       .div1, .div2 {display: flex}
+       .w1 {margin-right: 50px; margin-top: 100px; margin-left: 50px; font-size: 2em;}
+       .i1 {margin-bottom: 50px; margin-right: 50px; margin-top: 50px;}
+       .sub1, .sub2, .sub3 {margin-right: 50px; margin-top: 100px; margin-left: 50px; flex: 2;}
+       .subimage1, .subimage2, .subimage3 { margin-right: 50px; margin-bottom: 10px;}
+       .subwords1, .subwords2, .subwords3 {margin-bottom: 10px; margin-right: 50px; margin-top: 5px; color: white;}
+       .subimage3 {margin-left: 100px;}
+       .subwords2 {margin-top: 50px; font-size: 1.5em}
+       .subwords3 {margin-top: 55px; font-size: 1.5em}
+       .subwords1 {font-size: 1.5em}
+       .div1 {background-color: white;}
+       h1 { width: 100px; height: 100px; background: black; transition: width 2s;
+       }
+       h1:hover {width: 300px;}
+
+       </style>
    </head>
    <body>
     <nav><a href="project05.html">Home|</a>  <a href="syracuseuniversity.html">Syracuse University|</a> <a href="career.html"> Career</a></nav>
     <h1>Meet Ashley Stewart</h1>
-    <img src="../images/ashley.jpg" alt="ashley in stadium">
-    <p>I grew up in Fairfax, Virginia to Kim and Gary Stewart. Since I was very little my dad and I played soccer in the yard till I was old enough to be on my very first team in Kindergarten. My dad was the captain of his soccer team back in high school and passed the love of the sport down to me. I am currently a sports management student at David B. Falk School of Sport and Human Dynamics. I am planning on going into Community Relations for a professional sports team. Ideally, I want to work for the NWSL or MLS. </p>
-    
-    <h2>Outside of My Career</h2>
-    <img src="../images/truecrime.jpeg" alt="true crime news logo">
-    <p>True Crime: I fell in love with listening to true crime podcasts. I listen to true crime podcasts at the gym, long car rides, or anytime I have a chance. Some of my favorite podcasts are My Favorite Murder, Women in Crime, and True Crime Obsessed. Each podcast goes over a true crime story and lays out all the facts and reasons for the crime. Not only does each podcast tell the story of the crime but brings attention to important issues going on in the justice system and in social justice. Listening to true crime podcasts has also made me more aware of my surroundings and how to stay safe. </p>
-    
-        <img src="../images/cooking.jpeg" alt="pot on stove">
-     <p>Cooking: Now that I am a junior in college, I have spent a lot more time cooking my meals. Currently, I have been watching a lot of cooking and recipes on TikTok for inspiration. I love Asian cuisine and I have made kimchi jjigae, Tteokbokki, and different types of curries. I am trying to challenge myself and make as many new dishes as possible. And slowly but surely teach myself to cook a bunch of different recipes. </p>
-    
-        <img src="../images/blocks.png" alt="syracuse university logo">
-    <p>Journey to Syracuse University: In high school, I had no idea where I wanted to go for college. But I have a general idea on what I wanted to major in: Communications. I researched a bunch of different schools with outstanding communication programs. One school was Rollins College, a small liberal arts school in Orlando, Florida. I fell in love with school. The campus was gorgeous, and it was the number one school in the south. But my parents wanted me to look at all of my top three schools. We decided to tour Ithaca and Syracuse. That’s when I realized I wanted to go to big D-1 school. Syracuse was it for me. I loved the campus and Newhouse and known across the country. However, I had a last-minute change of heart. I decided that I was going to apply early decision for Sports Management at Falk. No other school I applied to was going to be in Sports Management. Getting into the Syracuse Sports Management program was deciding my future career path. Luckily, I was accepted early decision and to this day I don’t regret my decision.</p>
-   
+    <div class="div1">
+        <div class="w1">
+            <p>I grew up in Fairfax, Virginia to Kim and Gary Stewart. Since I was very little my dad and I played soccer in the yard till I was old enough to be on my very first team in Kindergarten. My dad was the captain of his soccer team back in high school and passed the love of the sport down to me. I am currently a sports management student at David B. Falk School of Sport and Human Dynamics. I am planning on going into Community Relations for a professional sports team. Ideally, I want to work for the NWSL or MLS. </p>
+        </div>
+        <div class="i1">
+            <img width="400px" height="500px"  src="../images/ashley.jpg" alt="ashley in stadium">
+        </div>
+     </div>
+    <h1>Outside of My Career</h2>
+    <div class="div2">
+        <div class="sub1">
+            <div class="subimage1">
+                <img src="../images/truecrime.jpeg" alt="true crime news logo">
+            </div>
+            <div class="subwords1">
+                <p>True Crime: I fell in love with listening to true crime podcasts. I listen to true crime podcasts at the gym, long car rides, or anytime I have a chance. Some of my favorite podcasts are My Favorite Murder, Women in Crime, and True Crime Obsessed. Each podcast goes over a true crime story and lays out all the facts and reasons for the crime. Not only does each podcast tell the story of the crime but brings attention to important issues going on in the justice system and in social justice. Listening to true crime podcasts has also made me more aware of my surroundings and how to stay safe. </p>
+            </div>
+        </div>
+        <div class="sub2">
+            <div class="subimage2">
+                <img src="../images/cooking.jpeg" alt="pot on stove">
+             </div>
+             <div class="subwords2">
+                <p>Cooking: Now that I am a junior in college, I have spent a lot more time cooking my meals. Currently, I have been watching a lot of cooking and recipes videos on TikTok for inspiration. I love Asian cuisine and I have made kimchi jjigae, Tteokbokki, and different types of curries. I am trying to challenge myself and make as many new dishes as possible. One of my favorite things to do is to host dinner parties with my friends. At these parties I try to make new recipes each time. It is a fun way to get feedback and share my love of food with my friends. My friends also bring their own dishes which allows me to try new things. My goal is to learn a bunch of different recipes from around the world. </p>
+             </div>
+        </div>
+        <div class="sub3">
+            <div class="subimage3">
+                 <img width="130px" height="180px" src="../images/blocks.png" alt="syracuse university logo">
+             </div>
+             <div class="subwords3">
+                 <p>Journey to Syracuse University: In high school, I had no idea where I wanted to go for college. But I have a general idea on what I wanted to major in: Communications. I researched a bunch of different schools with outstanding communication programs. One school was Rollins College, a small liberal arts school in Orlando, Florida. I fell in love with the school. The campus was gorgeous, and it was the number one school in the south. But my parents wanted me to look at all of my top three schools. We decided to tour Ithaca and Syracuse. That’s when I realized I wanted to go to big D-1 school. Syracuse was it for me. I loved the campus and Newhouse and known across the country. However, I had a last-minute change of heart. I decided that I was going to apply early decision for Sports Management at Falk. No other school I applied to was going to be in Sports Management. Getting into the Syracuse Sports Management program was deciding my future career path. Luckily, I was accepted early decision and to this day I don’t regret my decision.</p>
+            </div>
+         </div>
+     </div>
     </body>
    
 </html>

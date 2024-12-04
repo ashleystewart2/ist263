@@ -3,6 +3,7 @@ h1, h2, h3, h4 {color: #ffffff; font-size: 2em;}
 @media only screen and (max-width: 600px) {
     nav a {display: block;width: 100%; padding-top: 10px;}
     nav span {display: none;}
+    .top, .div1, .div2 {overflow: hidden;flex-wrap: wrap;}
 }
 nav {background-color: white;}
 nav a {color: black;}
