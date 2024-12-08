@@ -16,3 +16,5 @@ nav {margin-bottom: 30px;}
     font-style: normal;
   }
 a {color: white;}
+.evenrow {background-color: white;}
+.oddrow {background-color: black; color: white;}
